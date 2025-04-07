@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Hotel>  <!-- Error 1: Wrong root -->
+  <Name>Westin</Name>
+  <Name>Duplicate</Name>  <!-- Error 5: Duplicate Name -->
+  <!-- Error 3: Missing Phone -->
+  <Address NearestAirport="Sky Harbor">  <!-- Error 4: No closing tag -->
+    <Number>11</Number>
+    <!-- Error 2: Missing Rating attribute -->
+    <Street>E 7th St</Street>
+    <City>Tempe</City>
+    <State>AZ</State>
+    <Zip>85281</Zip>
+</Hotels>
